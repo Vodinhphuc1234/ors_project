@@ -1,7 +1,7 @@
 # Data
-Add file vietnam-lastest.osm.pbf to path openrouteservice/src/main/files/
+Add file **vietnam-lastest.osm.pbf** to path **openrouteservice/src/main/files/**
 # Run
-mvn clean install -Dspring-boot.run.jvmArguments="-Xmx2500m"
+**mvn clean install -Dspring-boot.run.jvmArguments="-Xmx2500m"**
 # Openrouteservice
 
 [![Build Status](https://travis-ci.org/GIScience/openrouteservice.svg?branch=master)](https://travis-ci.org/GIScience/openrouteservice) 
