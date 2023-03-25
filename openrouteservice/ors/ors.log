@@ -1,0 +1,123 @@
+2023-03-24 13:46:42,291 INFO [ors.Application] - Starting Application using Java 11.0.18 on vodinhphuc-ACER with PID 18132 (/home/vodinhphuc/works/Mioto/openrouteservice_backup/openrouteservice/openrouteservice/target/classes started by vodinhphuc in /home/vodinhphuc/works/Mioto/openrouteservice_backup/openrouteservice/openrouteservice)
+2023-03-24 13:46:42,299 DEBUG [ors.Application] - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-24 13:46:42,300 INFO [ors.Application] - No active profile set, falling back to 1 default profile: "default"
+2023-03-24 13:46:43,976 INFO [logging.LoggingUtility] - Logging configuration loaded from DEBUG_LOGGING.json, logging to file ./ors/ors-logs.log
+2023-03-24 13:46:43,986 INFO [routing.RoutingProfileManager] -  Total - 206 MB, Free - 148.65 MB, Max: 2.44 GB, Used - 57.35 MB
+2023-03-24 13:46:43,987 INFO [routing.RoutingProfileManager] -       
+2023-03-24 13:46:44,000 INFO [routing.RoutingProfileManager] - ====> Initializing profiles from 'src/main/files/vietname-latest.osm.pbf' (2 threads) ...
+2023-03-24 13:46:44,001 INFO [routing.RoutingProfileManager] - 1 tasks submitted.
+2023-03-24 13:46:44,007 INFO [routing.RoutingProfile] - [1] Profiles: 'driving-car', location: 'graphs/car'.
+2023-03-24 13:46:44,192 INFO [core.CoreLMPreparationHandler] - Loaded landmark splitting collection from 
+2023-03-24 13:46:45,553 INFO [ors.Application] - Started Application in 3.936 seconds (JVM running for 4.675)
+2023-03-24 13:46:50,870 INFO [core.CorePreparationHandler] - Creating CH preparations, totalMB:1984, usedMB:1980
+2023-03-24 13:46:50,879 INFO [core.CoreLMPreparationHandler] - Creating LM preparations, totalMB:1985, usedMB:1977
+2023-03-24 13:46:50,977 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_fastest_with_turn_costs_highways of size 157660
+2023-03-24 13:46:51,092 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_fastest_with_turn_costs_allow_all of size 157660
+2023-03-24 13:46:51,195 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_shortest_with_turn_costs_highways of size 157660
+2023-03-24 13:46:51,282 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_shortest_with_turn_costs_allow_all of size 157660
+2023-03-24 13:46:52,012 INFO [core.CoreLMPreparationHandler] - Finished LM preparation, totalMB:2352, usedMB:2346
+2023-03-24 13:46:52,073 INFO [extensions.ORSGraphHopper] - version 4.0|2023-03-14T18:19:46Z (7,20,5,4,5,7)
+2023-03-24 13:46:52,097 INFO [extensions.ORSGraphHopper] - graph CH|car_ors|RAM_STORE|3D|turn_cost|7,20,5,4,5, details:edges:5 500 743(189MB), nodes:4 809 999(92MB), name:(3MB), geo:40 939 655(157MB), bounds:102.1268019,114.333212,8.5645349,23.3825367,-45.0,3064.0, shortcuts:2 812 926 (54MB), nodesCH:4 809 999 (37MB), shortcuts:4 007 984 (123MB), nodesCH:4 809 999 (37MB), shortcuts:4 479 903 (137MB), nodesCH:4 809 999 (37MB)
+2023-03-24 13:46:52,099 INFO [routing.RoutingProfile] - [1] Edges: 5500743 - Nodes: 4809999.
+2023-03-24 13:46:52,102 INFO [routing.RoutingProfile] - [1] Total time: 8.094s.
+2023-03-24 13:46:52,104 INFO [routing.RoutingProfile] - [1] Finished at: 2023-03-24 13:46:52.
+2023-03-24 13:46:52,107 INFO [routing.RoutingProfileManager] - Total time: 8.119s.
+2023-03-24 13:46:52,107 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 13:46:52,119 INFO [routing.RoutingProfileManager] - ====> Recycling garbage...
+2023-03-24 13:46:52,121 INFO [routing.RoutingProfileManager] - Before:  Total - 2.30 GB, Free - 4.26 MB, Max: 2.44 GB, Used - 2.29 GB
+2023-03-24 13:46:52,245 INFO [routing.RoutingProfileManager] - After:  Total - 2.44 GB, Free - 160.08 MB, Max: 2.44 GB, Used - 2.29 GB
+2023-03-24 13:46:52,246 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 13:46:52,246 INFO [routing.RoutingProfileManager] - ====> Memory usage by profiles:
+2023-03-24 13:46:52,249 INFO [routing.RoutingProfileManager] - [1] 1.08 GB (47.1%)
+2023-03-24 13:46:52,249 INFO [routing.RoutingProfileManager] - Total: 1.08 GB (47.1%)
+2023-03-24 13:46:52,249 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 13:47:23,436 INFO [listeners.ORSInitContextListener] - Shutting down ORS and releasing resources.
+2023-03-24 23:12:45,266 INFO [ors.Application] - Starting Application using Java 11.0.18 on vodinhphuc-ACER with PID 7173 (/home/vodinhphuc/works/Mioto/openrouteservice_backup/openrouteservice/openrouteservice/target/classes started by vodinhphuc in /home/vodinhphuc/works/Mioto/openrouteservice_backup/openrouteservice/openrouteservice)
+2023-03-24 23:12:45,270 DEBUG [ors.Application] - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-24 23:12:45,271 INFO [ors.Application] - No active profile set, falling back to 1 default profile: "default"
+2023-03-24 23:12:48,006 INFO [logging.LoggingUtility] - Logging configuration loaded from DEBUG_LOGGING.json, logging to file ./ors/ors-logs.log
+2023-03-24 23:12:48,020 INFO [routing.RoutingProfileManager] -  Total - 200 MB, Free - 118.10 MB, Max: 1.91 GB, Used - 81.90 MB
+2023-03-24 23:12:48,021 INFO [routing.RoutingProfileManager] -       
+2023-03-24 23:12:48,039 INFO [routing.RoutingProfileManager] - ====> Initializing profiles from 'src/main/files/vietname-latest.osm.pbf' (2 threads) ...
+2023-03-24 23:12:48,041 INFO [routing.RoutingProfileManager] - 1 tasks submitted.
+2023-03-24 23:12:48,054 INFO [routing.RoutingProfile] - [1] Profiles: 'driving-car', location: 'graphs/car'.
+2023-03-24 23:12:48,306 INFO [core.CoreLMPreparationHandler] - Loaded landmark splitting collection from 
+2023-03-24 23:12:50,034 INFO [ors.Application] - Started Application in 5.67 seconds (JVM running for 6.7)
+2023-03-24 23:12:55,015 ERROR [routing.RoutingProfileManager] - java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+2023-03-24 23:12:55,015 ERROR [routing.RoutingProfileManager] - Failed to initialize RoutingProfileManager instance.
+java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:?]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191) ~[?:?]
+	at org.heigit.ors.routing.RoutingProfileManager.initialize(RoutingProfileManager.java:184) ~[classes/:?]
+	at org.heigit.ors.routing.RoutingProfileManager.getInstance(RoutingProfileManager.java:75) ~[classes/:?]
+	at org.heigit.ors.servlet.listeners.ORSInitContextListener.lambda$contextInitialized$0(ORSInitContextListener.java:40) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at com.graphhopper.storage.RAMIntDataAccess.loadExisting(RAMIntDataAccess.java:127) ~[graphhopper-core-v4.3.1.jar:?]
+	at com.graphhopper.storage.index.LineIntIndex.loadExisting(LineIntIndex.java:59) ~[graphhopper-core-v4.3.1.jar:?]
+	at com.graphhopper.storage.index.LocationIndexTree.loadExisting(LocationIndexTree.java:131) ~[graphhopper-core-v4.3.1.jar:?]
+	at com.graphhopper.GraphHopper.createLocationIndex(GraphHopper.java:1125) ~[graphhopper-core-v4.3.1.jar:?]
+	at com.graphhopper.GraphHopper.initLocationIndex(GraphHopper.java:1140) ~[graphhopper-core-v4.3.1.jar:?]
+	at com.graphhopper.GraphHopper.postProcessing(GraphHopper.java:1019) ~[graphhopper-core-v4.3.1.jar:?]
+	at com.graphhopper.GraphHopper.load(GraphHopper.java:870) ~[graphhopper-core-v4.3.1.jar:?]
+	at com.graphhopper.GraphHopper.importOrLoad(GraphHopper.java:667) ~[graphhopper-core-v4.3.1.jar:?]
+	at org.heigit.ors.routing.graphhopper.extensions.ORSGraphHopper.importOrLoad(ORSGraphHopper.java:165) ~[classes/:?]
+	at org.heigit.ors.routing.RoutingProfile.initGraphHopper(RoutingProfile.java:195) ~[classes/:?]
+	at org.heigit.ors.routing.RoutingProfile.<init>(RoutingProfile.java:142) ~[classes/:?]
+	at org.heigit.ors.routing.RoutingProfileLoader.call(RoutingProfileLoader.java:39) ~[classes/:?]
+	at org.heigit.ors.routing.RoutingProfileLoader.call(RoutingProfileLoader.java:25) ~[classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	... 1 more
+2023-03-24 23:12:55,035 INFO [routing.RoutingProfileManager] - ====> Recycling garbage...
+2023-03-24 23:12:55,035 INFO [routing.RoutingProfileManager] - Before:  Total - 1.91 GB, Free - 10.68 MB, Max: 1.91 GB, Used - 1.90 GB
+2023-03-24 23:12:55,159 INFO [routing.RoutingProfileManager] - After:  Total - 90 MB, Free - 65.64 MB, Max: 1.91 GB, Used - 24.36 MB
+2023-03-24 23:12:55,159 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 23:12:55,159 INFO [routing.RoutingProfileManager] - ====> Memory usage by profiles:
+2023-03-24 23:12:55,170 INFO [routing.RoutingProfileManager] - Total: 0 B (0.0%)
+2023-03-24 23:12:55,171 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 23:13:03,380 INFO [listeners.ORSInitContextListener] - Shutting down ORS and releasing resources.
+2023-03-24 23:14:06,655 INFO [ors.Application] - Starting Application using Java 11.0.18 on vodinhphuc-ACER with PID 7638 (/home/vodinhphuc/works/Mioto/openrouteservice_backup/openrouteservice/openrouteservice/target/classes started by vodinhphuc in /home/vodinhphuc/works/Mioto/openrouteservice_backup/openrouteservice/openrouteservice)
+2023-03-24 23:14:06,658 DEBUG [ors.Application] - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-24 23:14:06,659 INFO [ors.Application] - No active profile set, falling back to 1 default profile: "default"
+2023-03-24 23:14:09,246 INFO [logging.LoggingUtility] - Logging configuration loaded from DEBUG_LOGGING.json, logging to file ./ors/ors-logs.log
+2023-03-24 23:14:09,260 INFO [routing.RoutingProfileManager] -  Total - 152 MB, Free - 70.30 MB, Max: 2.44 GB, Used - 81.70 MB
+2023-03-24 23:14:09,260 INFO [routing.RoutingProfileManager] -       
+2023-03-24 23:14:09,279 INFO [routing.RoutingProfileManager] - ====> Initializing profiles from 'src/main/files/vietname-latest.osm.pbf' (2 threads) ...
+2023-03-24 23:14:09,281 INFO [routing.RoutingProfileManager] - 1 tasks submitted.
+2023-03-24 23:14:09,299 INFO [routing.RoutingProfile] - [1] Profiles: 'driving-car', location: 'graphs/car'.
+2023-03-24 23:14:09,647 INFO [core.CoreLMPreparationHandler] - Loaded landmark splitting collection from 
+2023-03-24 23:14:11,687 INFO [ors.Application] - Started Application in 5.955 seconds (JVM running for 7.327)
+2023-03-24 23:14:16,122 INFO [core.CorePreparationHandler] - Creating CH preparations, totalMB:1987, usedMB:1982
+2023-03-24 23:14:16,133 INFO [core.CoreLMPreparationHandler] - Creating LM preparations, totalMB:1987, usedMB:1983
+2023-03-24 23:14:16,345 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_fastest_with_turn_costs_highways of size 157660
+2023-03-24 23:14:16,472 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_fastest_with_turn_costs_allow_all of size 157660
+2023-03-24 23:14:16,547 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_shortest_with_turn_costs_highways of size 157660
+2023-03-24 23:14:16,593 INFO [core.CoreLandmarkStorage] - Created core node ID map for car_ors_shortest_with_turn_costs_allow_all of size 157660
+2023-03-24 23:14:17,407 INFO [core.CoreLMPreparationHandler] - Finished LM preparation, totalMB:2354, usedMB:2348
+2023-03-24 23:14:17,453 INFO [extensions.ORSGraphHopper] - version 4.0|2023-03-14T18:19:46Z (7,20,5,4,5,7)
+2023-03-24 23:14:17,512 INFO [extensions.ORSGraphHopper] - graph CH|car_ors|RAM_STORE|3D|turn_cost|7,20,5,4,5, details:edges:5 500 743(189MB), nodes:4 809 999(92MB), name:(3MB), geo:40 939 655(157MB), bounds:102.1268019,114.333212,8.5645349,23.3825367,-45.0,3064.0, shortcuts:2 812 926 (54MB), nodesCH:4 809 999 (37MB), shortcuts:4 007 984 (123MB), nodesCH:4 809 999 (37MB), shortcuts:4 479 903 (137MB), nodesCH:4 809 999 (37MB)
+2023-03-24 23:14:17,515 INFO [routing.RoutingProfile] - [1] Edges: 5500743 - Nodes: 4809999.
+2023-03-24 23:14:17,517 INFO [routing.RoutingProfile] - [1] Total time: 8.218s.
+2023-03-24 23:14:17,518 INFO [routing.RoutingProfile] - [1] Finished at: 2023-03-24 23:14:17.
+2023-03-24 23:14:17,519 INFO [routing.RoutingProfileManager] - Total time: 8.257s.
+2023-03-24 23:14:17,519 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 23:14:17,537 INFO [routing.RoutingProfileManager] - ====> Recycling garbage...
+2023-03-24 23:14:17,538 INFO [routing.RoutingProfileManager] - Before:  Total - 2.30 GB, Free - 4.23 MB, Max: 2.44 GB, Used - 2.29 GB
+2023-03-24 23:14:17,608 INFO [routing.RoutingProfileManager] - After:  Total - 2.44 GB, Free - 158.96 MB, Max: 2.44 GB, Used - 2.29 GB
+2023-03-24 23:14:17,608 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 23:14:17,608 INFO [routing.RoutingProfileManager] - ====> Memory usage by profiles:
+2023-03-24 23:14:17,612 INFO [routing.RoutingProfileManager] - [1] 1.08 GB (47.1%)
+2023-03-24 23:14:17,612 INFO [routing.RoutingProfileManager] - Total: 1.08 GB (47.1%)
+2023-03-24 23:14:17,612 INFO [routing.RoutingProfileManager] - ========================================================================
+2023-03-24 23:18:31,658 INFO [util.SystemMessage] - SystemMessage loaded 0 messages.
+2023-03-24 23:18:34,880 INFO [routing.RoutingProfile] - Found 0 nodes in bbox.
+2023-03-24 23:18:34,910 INFO [routing.RoutingProfile] - Found 0 nodes in bbox.
+2023-03-24 23:18:34,975 INFO [routing.RoutingProfile] - Found 0 nodes in bbox.
+2023-03-24 23:18:34,984 INFO [routing.RoutingProfile] - Found 0 nodes in bbox.
+2023-03-24 23:18:35,005 INFO [routing.RoutingProfile] - Found 0 nodes in bbox.
+2023-03-24 23:18:35,018 INFO [routing.RoutingProfile] - Found 0 nodes in bbox.
+2023-03-24 23:18:35,043 INFO [routing.RoutingProfile] - Found 0 nodes in bbox.

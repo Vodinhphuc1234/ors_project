@@ -1,0 +1,16 @@
+target/
+*~
+TODO.txt
+.settings/
+.classpath
+.project
+#/WebContent/WEB-INF/ors-config.json
+*.iws
+*.ipr
+cgiar-cache
+srtm_38_03.zip
+logs/
+.attach_*
+# jqwik
+.jqwik-database
+src/main/files/vietname-latest.osm.pbf
